@@ -1,4 +1,7 @@
-# judge which cmake codes to use 
+# judge which cmake codes to use
+set(ROS_EDITION "ROS2" CACHE STRING "ROS Edition")
+set(HUMBLE_ROS "humble" CACHE STRING "ROS Edition is humble")
+
 if(ROS_EDITION STREQUAL "ROS1")
 
   # Copyright(c) 2019 livoxtech limited.
